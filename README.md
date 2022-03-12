@@ -1,7 +1,6 @@
 <img src="https://eng.asu.edu.eg/archive/download/68239" width="80" height="80" style="float: right;">
-<br/>
-<img src="./assets/logo.svg" >
-<br/>
+
+# Movers Market Place
 
 ## Built With
 
