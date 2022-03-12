@@ -1,8 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/segoe-ui-variable");
-
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI Variable', sans-serif;
@@ -42,8 +41,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fff;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -59,7 +58,7 @@
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%);
-  transform: translate(-50%);
+          transform: translate(-50%);
   bottom: -7%;
   background-color: #0d2f3c;
   color: #fff;
@@ -92,15 +91,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 1%;
 }
 
 .over-boxes .over-boxes__item {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: green;
 }
 
@@ -109,14 +108,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 5%;
   height: 100px;
-  background-color: green;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
   font-weight: bold;
 }
@@ -163,17 +161,18 @@
 .nav .nav__list .nav__list__item:nth-child(n) a::after {
   opacity: 1;
   -webkit-transform: scale(0);
-  transform: scale(0);
+          transform: scale(0);
   -webkit-transform-origin: center;
-  transform-origin: center;
+          transform-origin: center;
 }
 
 .nav .nav__list .nav__list__item:nth-child(n) a:hover::after,
 .nav .nav__list .nav__list__item:nth-child(n) a:focus::after {
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .nav .nav__icons .nav__icons__2 {
   padding-left: 20px;
 }
+/*# sourceMappingURL=main.css.map */
