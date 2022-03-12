@@ -4,7 +4,10 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "stylelint \"**/*.{css,scss}\" --fix",
+    "hint": "hint . --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -13,16 +16,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/omarsalem7/Movers-app/issues"
-  },
+  "bugs": {},
   "homepage": "https://github.com/omarsalem7/Movers-app#readme",
-  "scripts": {
-    "style": "stylelint \"**/*.{css,scss}\" --fix",
-    "hint": "hint . --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
   "devDependencies": {
     "hint": "^6.1.10",
     "stylelint": "^13.13.1",

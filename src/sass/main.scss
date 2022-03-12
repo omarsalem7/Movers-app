@@ -1,0 +1,11 @@
+@import './layout/global_rules';
+@import './variables/colors';
+
+// import pages
+@import './pages/home';
+
+// import layouts
+@import './layout/nav';
+
+// media variable size for mobile
+$max_width: 'max-width: 767px';
