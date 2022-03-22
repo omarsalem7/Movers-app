@@ -39,12 +39,6 @@
       left: 50%;
       transform: translate(-50%);
       bottom: -7%;
-      background-color: $btn-color;
-      color: $primary;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
     }
 
     .header__form__input {
@@ -61,6 +55,13 @@
     .icon {
       padding-left: 10%;
       background: url('../../../assets/form-input-icon1.svg') no-repeat left;
+      background-size: 15px;
+      background-position-x: 4%;
+    }
+
+    .icon-date {
+      padding-left: 10%;
+      background: url('../../../assets/form-input-icon2.svg') no-repeat left;
       background-size: 15px;
       background-position-x: 4%;
     }
@@ -97,6 +98,51 @@
 
     span {
       font-size: 14px;
+    }
+  }
+}
+
+main {
+  background-color: $secondary;
+  margin: 4% 4.5%;
+  padding: 3% 5%;
+  border-radius: 30px;
+
+  .main__description {
+    line-height: 40px;
+  }
+
+  .main__boxs {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    padding-top: 5%;
+
+    .main__boxs__item {
+      text-align: center;
+      padding: 3%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 15px;
+
+      h3 {
+        padding: 20% 0 5% 0;
+      }
+
+      p {
+        text-align: start;
+        line-height: 25px;
+        color: $p-color;
+      }
+    }
+  }
+
+  .main-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+    button {
+      padding: 15px 60px;
     }
   }
 }
