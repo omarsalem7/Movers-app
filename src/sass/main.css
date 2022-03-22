@@ -9,7 +9,7 @@
 
 .header {
   margin-top: -100px;
-  background-image: url("../../../assets/home-background.png");
+  background-image: url("../assets/home-background.png");
   height: 80vh;
   padding: 100px 5% 0 5%;
   display: -webkit-box;
@@ -73,16 +73,16 @@
   border: 1px solid gray;
 }
 
-.header .header__form .icon {
+.header .header__form .icon-location {
   padding-left: 10%;
-  background: url("../../../assets/form-input-icon1.svg") no-repeat left;
+  background: url("../../assets/form-input-icon1.svg") no-repeat left;
   background-size: 15px;
   background-position-x: 4%;
 }
 
 .header .header__form .icon-date {
   padding-left: 10%;
-  background: url("../../../assets/form-input-icon2.svg") no-repeat left;
+  background: url("../../assets/form-input-icon2.svg") no-repeat left;
   background-size: 15px;
   background-position-x: 4%;
 }
@@ -140,9 +140,9 @@
 }
 
 main {
-  background-color: #f8f8fb;
   margin: 4% 4.5%;
   padding: 3% 5%;
+  background-color: #f8f8fb;
   border-radius: 30px;
 }
 
@@ -191,6 +191,61 @@ main .main-btn {
 
 main .main-btn button {
   padding: 15px 60px;
+}
+
+.partner {
+  margin: 4% 4.5%;
+}
+
+.partner .partner__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partner .partner__sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+}
+
+.partner .partner__sections .partner__sections__one {
+  padding-top: 6%;
+}
+
+.partner .partner__sections .partner__sections__one h4 {
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.partner .partner__sections .partner__sections__one p {
+  color: #d2cdca;
+  width: 80%;
+  line-height: 25px;
+}
+
+.partner .partner__sections .partner__sections__two {
+  background-image: url("../assets/partner-bg.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.partner .partner__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
 }
 
 .primary-btn {
