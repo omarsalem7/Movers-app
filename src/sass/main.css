@@ -314,6 +314,86 @@ main .main-btn button {
   line-height: 25px;
 }
 
+.quotes-container .quotes-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.refer {
+  margin: 4% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.refer p {
+  width: 50%;
+  padding: 5% 0;
+  line-height: 35px;
+}
+
+.refer img {
+  width: 85%;
+  margin-left: 15%;
+}
+
+.who {
+  margin: 5%;
+}
+
+.who img {
+  width: 100%;
+}
+
+footer {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f8f8fb;
+}
+
+footer .footer-company h3 {
+  padding: 15px 0;
+}
+
+footer .footer-company p {
+  width: 90%;
+  line-height: 35px;
+  color: #d2cdca;
+}
+
+footer div {
+  width: 35%;
+}
+
+footer div ul,
+footer div h4 {
+  padding-top: 15px;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div ul li {
+  padding: 5px 0;
+}
+
+footer div:nth-last-child(1) {
+  width: 20%;
+}
+
 .primary-btn {
   background-color: #0d2f3c;
   color: #fff;
